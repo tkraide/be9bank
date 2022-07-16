@@ -1,0 +1,26 @@
+[
+    {
+        "key": "AR",
+        "value": "Aguardando Retirada"
+    },
+    {
+        "key": "RE",
+        "value": "Retirada Efetuada"
+    },
+    {
+        "key": "AE",
+        "value": "Aguardando Entrega"
+    },
+    {
+        "key": "EF",
+        "value": "Entrega Efetuada"
+    },
+    {
+        "key": "AP",
+        "value": "Aguardando Pagamento"
+    },
+    {
+        "key": "PE",
+        "value": "Pagamento Efetuado"
+    }
+]

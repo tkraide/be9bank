@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { Subject } from \"rxjs\";\nconst LoadingSubject = new Subject();\nexport const LoadingEvent = {\n  loading() {\n    return LoadingSubject.asObservable();\n  },\n\n  load(load) {\n    LoadingSubject.next(load);\n  }\n\n};","map":null,"metadata":{},"sourceType":"module"}

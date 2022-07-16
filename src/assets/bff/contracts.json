@@ -1,0 +1,10 @@
+[
+  {
+    "registerId": {
+      "externalId": "1",
+      "id": "a029d5ec-beb0-4b9b-ad1e-f337c3dc1b68"
+    },
+    "id": "1",
+    "payload": "{\"document_type\":\"string\",\"document_number\":\"string\",\"renter_name\":\"string\",\"vehicle_group\":\"string\",\"pickup_location\":\"string\",\"return_location\":\"string\",\"pickup_date\":\"any\",\"return_date\":\"any\",\"status\":\"string\"}"
+  }
+]

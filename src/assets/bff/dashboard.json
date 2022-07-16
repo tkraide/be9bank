@@ -1,0 +1,7 @@
+{
+    "totalContracts": 8000,
+    "totalContractUpdates": 500,
+    "totalContractValue": 2000,
+    "barChartTotalContractsByMonth": "[['Jan', 56],['Fev', 1256],['Mar', 658],['Abr', 852],['Mai', 2200]]",
+    "barChartTotalUpdateByMonth": "[['Jan', 10],['Fev', 20],['Mar', 4],['Abr', 3],['Mai', 0]]"
+}

@@ -1,0 +1,22 @@
+.fa {
+  vertical-align: middle;
+}
+.loading {
+  left: 0;
+  top: 0;
+  color: #fff;
+  z-index: 99999;
+  position: fixed;
+  margin-left: calc(50% - 30px);
+  margin-top: calc(50% - 30px);
+}
+.blackout {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #000;
+  opacity: 0.6;
+  z-index: 99998;
+}

@@ -1,0 +1,444 @@
+h1{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.1em;
+    text-align: center;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;200&family=Poppins:wght@600&family=Work+Sans:wght@700&display=swap');
+#pSobre{
+    line-height: 1.7em;
+    font-size: 22px;
+    letter-spacing: 0.01em;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+@media (max-width:800px) {
+  .content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+    margin-bottom: 50px;
+    grid-gap: 40px;
+  
+  }
+
+  #Contato{
+    font-family:'Poppins', sans-serif;
+    line-height: 1.3em;
+    text-align: center;
+    font-size: calc( 26px + (36 - 26) * (100vw - 400px) / (1300 - 400) );
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    letter-spacing: 0.15em;
+    max-width: calc(100% - 20px);}
+
+
+}
+#Atendimento{
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.1em;
+  text-align: center;
+  font-size: calc( 25px + (32 - 24) * (100vw - 400px) / (1300 - 400) );
+  margin-top: 90px;
+  margin-bottom: 110px;
+  letter-spacing: 0.2em;
+  line-height: 37px;
+}
+.h2Hora{
+  font-family: 'Work Sans', sans-serif;
+  line-height: 1.1em;
+  text-align: center;
+  font-size: calc( 22px + (28 - 22) * (100vw - 400px) / (1300 - 400) );
+  font-weight: 700;
+  margin-bottom: 25px;
+  letter-spacing: 0.15em;
+}
+
+.pHora{
+  line-height: 1.7em;
+  text-align: center;
+  font-size: calc( 17px + (19 - 17) * (100vw - 400px) / (1300 - 400) );
+  letter-spacing: 0.01em;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 5px;
+}
+@media (min-width:800px) {
+.content{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+#Contato{
+  font-family:'Poppins', sans-serif;
+  line-height: 1.3em;
+  text-align: center;
+  font-size: calc( 29px + (32 - 26) * (100vw - 400px) / (1300 - 400) );
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: -25px;
+  letter-spacing: 0.15em;
+  max-width: calc(100% - 20px);}
+
+
+}
+.Back{
+  background-color: rgb(246,243,239);
+  border-radius: 10px;
+
+}
+#ContatoDiv{
+  text-align: center;
+}
+
+#imagemSobre{
+  width: 1000px;
+  height: 230px;
+  box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 13%);
+  border-radius: 10px;
+  max-width: calc(100% - 20px);
+}
+.botoesCartao{
+  margin-bottom: 30px;
+  justify-items: center;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #008437;
+  height: auto;
+  width: 99.35vw;
+  position: inherit;
+  margin-top: 100px;
+  padding-top: 40px;
+  color: #fff;
+  margin-left: -20px;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 15px;
+  line-height: 28px;
+  font-size: 14px;
+  color: #ffffff;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  padding: 5px;
+  display: block;
+  color: white;
+
+}
+.socials a i{
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  margin-left:-2px;
+
+
+  transition: color .4s ease;
+
+}
+.socials a:hover i{
+  color: rgb(233, 195, 6);
+}
+
+.footer-bottom{
+  background: #013912;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.footer-bottom p{
+float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom p a{
+color:rgb(233, 195, 6);
+font-size: 16px;
+text-decoration: none;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+.footer-menu{
+float: right;
+
+}
+.footer-menu ul{
+display: flex;
+}
+.footer-menu ul li{
+padding-right: 15px;
+display: block;
+}
+.footer-menu ul li a{
+color: #cfd2d6;
+text-decoration: none;
+}
+.footer-menu ul li a:hover{
+color: rgb(233, 195, 6);
+}
+
+
+@media (max-width:700px) {
+.footer-menu ul{
+display: flex;
+margin-top: 10px;
+}
+.footer-menu{
+  font-size: 14px;
+  display: -webkit-inline-box;
+  float: none;
+  }
+
+.footer-bottom{
+  background: #013912;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  height: 30px;
+  float: initial;
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    float: inherit;
+  }
+
+  .botao-wpp {
+    text-decoration: none;
+    color: #eee;
+    display: inline-block;
+    background-color: #25d366;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 20px;
+    padding: 1px;
+    text-align: center;
+   margin-bottom: 10px;
+  }
+  .ContWpp{
+    align-content: center;
+    justify-content: end;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60px;
+    justify-items: center;
+    margin-left: 18px;
+  
+  }
+  .botao-face {
+    text-decoration: none;
+    color: #eee;
+    display: inline-block;
+    background-color: #0249c4;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+   margin-bottom: 0px;
+  }
+  .ContFace{
+    align-content: center;
+    justify-content: end;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60px;
+    justify-items: center;
+    margin-left: 15px;
+  
+  }
+  .botao-email {
+    text-decoration: none;
+    color: #eee;
+    display: inline-block;
+    background-color: #d32539;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: center;
+   margin-bottom: 0px;
+  }
+  .ContEmail{
+    align-content: center;
+    justify-content: end;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 60px;
+    justify-items: center;
+    margin-left: 23px;
+  }
+  
+  .BtnWpp{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+   }
+   #Email{
+     margin-left: -45px;
+   }
+   #Face{
+    margin-right: 8px;
+  }
+  #Wpp{
+    margin-right: 6px;
+  }
+}
+.botao-wpp {
+  text-decoration: none;
+  color: #eee;
+  display: inline-block;
+  background-color: #25d366;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  width: 200px;
+  margin-top: 20px;
+  padding: 15px;
+  text-align: center;
+ margin-bottom: 10px;
+}
+.ContWpp{
+  align-content: center;
+  justify-content: end;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 160px;
+  justify-items: center;
+  margin-left: 18px;
+
+}
+.botao-face {
+  text-decoration: none;
+  color: #eee;
+  display: inline-block;
+  background-color: #0249c4;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  width: 200px;
+  margin-top: 0px;
+  padding: 15px;
+  text-align: center;
+ margin-bottom: 10px;
+}
+.ContFace{
+  align-content: center;
+  justify-content: end;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 160px;
+  justify-items: center;
+  margin-left: 15px;
+
+}
+.botao-email {
+  text-decoration: none;
+  color: #eee;
+  display: inline-block;
+  background-color: #d32539;
+  font-weight: bold;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  width: 200px;
+  margin-top: 0px;
+  padding: 15px;
+  text-align: center;
+ margin-bottom: 10px;
+}
+.ContEmail{
+  align-content: center;
+  justify-content: end;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 160px;
+  justify-items: center;
+  margin-left: 23px;
+
+}
+.BtnWpp{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: white;
+ }
+ #Email{
+   margin-left: -45px;
+ }
+ #Face{
+  margin-right: 8px;
+}
+#Wpp{
+  margin-right: 6px;
+}
+.botao-wpp:hover {
+  background-color: darken(#25d366, 5%);
+}
+
+.botao-wpp:focus {
+  background-color: darken(#25d366, 15%);
+}
+
+.botao-face:hover {
+  background-color: darken(#0249c4, 5%);
+}
+
+.botao-face:focus {
+  background-color: darken(#0249c4, 15%);
+}  
+.botao-email:hover {
+  background-color: darken(#d32539, 5%);
+}
+
+.botao-email:focus {
+  background-color: darken(#d32539, 15%);
+}  

@@ -1,0 +1,94 @@
+{
+  "name": "fairway",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "ng": "ng",
+    "e2e": "ng e2e",
+    "write:env": "ngx-scripts env npm_package_version",
+    "translations:extract": "ngx-translate-extract --input ./src --output ./src/translations/template.json --format=json --clean --sort",
+    "start": "node server.js",
+    "postinstall": "ng build --aot --prod",
+    "devstart": "npm run write:env -s && ng serve --proxy-config proxy.conf.js"
+  },
+  "dependencies": {
+    "@angular/animations": "^11.0.8",
+    "@angular/cdk": "^11.2.8",
+    "@angular/common": "^11.0.8",
+    "@angular/compiler": "^11.0.8",
+    "@angular/core": "^11.0.8",
+    "@angular/flex-layout": "^11.0.0-beta.33",
+    "@angular/forms": "^11.0.8",
+    "@angular/localize": "^11.0.8",
+    "@angular/material": "^11.2.8",
+    "@angular/platform-browser": "^11.0.8",
+    "@angular/platform-browser-dynamic": "^11.0.8",
+    "@angular/router": "^11.0.8",
+    "@angular/service-worker": "^11.0.8",
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "@ng-bootstrap/ng-bootstrap": "^9.0.2",
+    "@ngx-translate/core": "^13.0.0",
+    "@types/uuid": "^8.3.0",
+    "angular-google-charts": "^2.1.0",
+    "bootstrap": "^4.5.3",
+    "dexie": "^3.0.3",
+    "express": "^4.17.1",
+    "file-saver": "^2.0.5",
+    "ngx-filesaver": "^12.0.0",
+    "rxjs": "^6.6.3",
+    "tslib": "^2.0.1",
+    "uuid": "^8.3.2",
+    "zone.js": "~0.10.3"
+  },
+  "devDependencies": {
+    "@angular-builders/jest": "^11.0.0",
+    "@angular-devkit/build-angular": "^0.1102.12",
+    "@angular/cli": "~11.0.6",
+    "@angular/compiler-cli": "^11.0.8",
+    "@angular/language-service": "^11.0.8",
+    "@biesbjerg/ngx-translate-extract": "^7.0.3",
+    "@biesbjerg/ngx-translate-extract-marker": "^1.0.0",
+    "@ngneat/until-destroy": "^8.0.3",
+    "@ngx-rocket/scripts": "^5.0.0",
+    "@types/file-saver": "^2.0.3",
+    "@types/jasmine": "^3.6.2",
+    "@types/jasminewd2": "^2.0.8",
+    "@types/jest": "^26.0.19",
+    "@types/node": "^12.19.12",
+    "codelyzer": "^6.0.1",
+    "hads": "^3.0.0",
+    "htmlhint": "^0.14.2",
+    "https-proxy-agent": "^5.0.0",
+    "husky": "^4.3.6",
+    "jasmine-core": "~3.6.0",
+    "jasmine-spec-reporter": "~6.0.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
+    "protractor": "~7.0.0",
+    "stylelint": "~13.8.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-recommended-scss": "~4.2.0",
+    "stylelint-config-standard": "~20.0.0",
+    "stylelint-scss": "~3.18.0",
+    "ts-node": "^9.1.1",
+    "tslint": "~6.1.0",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "~4.0.5"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": "*.scss",
+        "options": {
+          "singleQuote": false
+        }
+      }
+    ]
+  },
+  "engines": {
+    "node": "12.12.0",
+    "npm": "6.11.3"
+  }
+}

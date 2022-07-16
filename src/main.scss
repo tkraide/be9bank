@@ -1,0 +1,101 @@
+@import "~@angular/material/theming";
+/*
+ * Entry point of global application style.
+ * Component-specific style should not go here and be included directly as part of the components.
+ */
+
+// Theme variables, must be included before the libraries to allow overriding defaults
+@import "theme/theme-variables";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "~@fortawesome/fontawesome-free/scss/brands.scss";
+@import "~@fortawesome/fontawesome-free/scss/regular.scss";
+@import "~@fortawesome/fontawesome-free/scss/solid.scss";
+
+// Theme customization
+@import "theme/theme";
+
+@include mat-core();
+
+$mat-gft: (
+  50: #e4e8f0,
+  100: #bcc5d8,
+  200: #909fbf,
+  300: #6378a5,
+  400: #415b91,
+  500: #203e7e,
+  600: #1c3876,
+  700: #18306b,
+  800: #132861,
+  900: #0b1b4e,
+  A100: #859cff,
+  A200: #5272ff,
+  A400: #1f49ff,
+  A700: $gftSecondary,
+  contrast: (
+    50: $dark-primary-text,
+    100: $dark-primary-text,
+    200: $dark-primary-text,
+    300: $dark-primary-text,
+    400: $dark-primary-text,
+    500: $light-primary-text,
+    600: $light-primary-text,
+    700: $light-primary-text,
+    800: $light-primary-text,
+    900: $light-primary-text,
+    A100: $dark-primary-text,
+    A200: $light-primary-text,
+    A400: $light-primary-text,
+    A700: $light-primary-text,
+  ),
+);
+
+$mat-gft-red: (
+  500: #b30404,
+  contrast: (
+    500: $light-primary-text,
+  ),
+);
+
+$primary-pallete: mat-palette($mat-gft);
+$accent-pallete: mat-palette($mat-gft, A100, A100, A100);
+$warn-pallete: mat-palette($mat-gft-red, 500);
+
+$default-theme: mat-light-theme(
+  (
+    color: (
+      primary: $primary-pallete,
+      accent: $accent-pallete,
+      warn: $warn-pallete,
+    ),
+  )
+);
+
+$custom-typography: mat-typography-config(
+  $font-family: "Nunito Sans",
+);
+@include mat-core($custom-typography);
+@include angular-material-theme($default-theme);
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a {
+  color: $gftSecondary;
+}
+mat-form-field {
+  width: 100%;
+}
+mat-label {
+  color: #000;
+}
+.mat-toolbar {
+  color: $whrite;
+}
+body {
+  background-color: #eaeaea;
+  font-family: "Nunito Sans", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+}
+

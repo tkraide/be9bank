@@ -1,0 +1,45 @@
+  <header class="header">
+    <!-- Logo -->
+    <div id="logo">
+    <span ><a href=""><img src="/assets/grbusiness.svg" alt="" srcset="" /></a></span>
+    </div>
+
+    <!-- Hamburger icon -->
+    <input class="side-menu" type="checkbox" id="side-menu" unchecked/>
+    <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+
+    <!-- Menu -->
+    <nav class="nav">
+        <ul class="menu">
+            <li> <a onclick="refreshCSS()" [routerLink]="['/home']" routerLinkActive="active" mat-icon-button class="menu-item">
+              <mat-icon [inline]="true">home</mat-icon>
+              <span class="Span">Home</span>
+            </a></li>
+            <li> <a onclick="refreshCSS()" [routerLink]="['/servicos']" routerLinkActive="active" mat-icon-button class="menu-item">
+              <mat-icon [inline]="true">assessment</mat-icon>
+              <span  class="Span">Serviços</span>
+            </a></li>
+            <li> <a onclick="refreshCSS()" [routerLink]="['/portfolio']" routerLinkActive="active" mat-icon-button class="menu-item">
+              <mat-icon [inline]="true">assignment</mat-icon>
+              <span  class="Span">Portfólio</span>
+            </a></li>
+            <li>  <a onclick="refreshCSS()" [routerLink]="['/processo']" routerLinkActive="active" mat-icon-button class="menu-item">
+              <mat-icon [inline]="true">computer</mat-icon>
+              <span  class="Span">Processo</span>
+            </a></li>
+            <li> <a  onclick="refreshCSS()" [routerLink]="['/contato']" routerLinkActive="active" mat-icon-button class="menu-item">
+              <mat-icon [inline]="true">contact_mail</mat-icon>
+              <span  class="Span">Contato</span>
+            </a></li>
+        </ul>
+    </nav>
+</header>
+<script>
+        refreshCSS = () => {
+          document.getElementById("side-menu").checked = false;
+                }
+            
+</script>
+<div class="main-content">
+  <router-outlet></router-outlet>
+</div>

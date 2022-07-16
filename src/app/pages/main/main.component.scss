@@ -1,0 +1,281 @@
+.spacer:not(.rodape) {
+  flex: 1 1 auto;
+}
+span.spacer:not(.rodape) {
+  padding-left: 20px;
+  font-size: 27px;
+}
+#logo {
+  img {
+    height: 51px;
+  }
+}
+.main-content:not(.rodape){
+  box-sizing: border-box;
+  height: calc(100vh - 64px);
+  margin: 0px 0px;
+  position: relative;
+  padding: 84px 20px 0px 20px;
+}
+
+// .disposicaoPagina{
+//   display: grid;
+//   grid-gap: 1.5rem;
+//   grid-template-rows: repeat(1, 6rem);
+//   grid-template-areas: 
+//   'main-content'
+//   'rodape';
+// }
+
+
+ 
+.content123{
+  display: inline-grid;
+}
+#logo{
+  height: 49px;
+  padding: 20px;
+  justify-items: start;
+}
+
+ 
+
+@media print {
+  .mat-toolbar {
+    display: none;
+  }
+}
+
+::ng-deep {
+  .mat-toolbar {
+    border-bottom: 5px solid rgb(12, 187, 70);
+  }
+  @media (prefers-color-scheme: dark) {
+  }
+
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #c9c9c9;
+  }
+}
+
+
+
+/* Logo */
+
+
+
+
+.menu a:hover{
+  background-color: rgb(12, 187, 70);
+  color: #ffffff;
+}
+
+.nav{
+  max-height: 0;
+  transition: max-height .5s ease-out;
+}
+
+/* Menu Icon */
+
+.hamb{
+  cursor: pointer;
+  float: right;
+  padding: 40px 20px;
+  margin-top: -86px;
+}
+
+
+.hamb-line {
+  background:  #0cbb46;
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 24px;
+  
+}
+
+.hamb-line::before,
+.hamb-line::after{
+  background: #0cbb46;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+
+.hamb-line::before{
+  top: 5px;
+}
+
+.hamb-line::after{
+  top: -5px;
+}
+
+
+.side-menu {
+  display: none;
+}
+
+/* Toggle menu icon */
+
+.side-menu:checked ~ nav{
+  max-height: 100%;
+}
+
+.side-menu:checked ~ .hamb .hamb-line {
+  background: transparent;
+}
+
+.side-menu:checked ~ .hamb .hamb-line::before {
+  transform: rotate(-45deg);
+  top:0;
+
+}
+
+.side-menu:checked ~ .hamb .hamb-line::after {
+  transform: rotate(45deg);
+  top:0;
+}
+
+ul{
+  list-style: none;
+}
+
+@media (min-width: 800px) {
+  .nav{
+      max-height: none;
+      top: 0;
+      position: relative;
+      float: right;
+      width: fit-content;
+      background-color: transparent;
+      color:  #0cbb46;
+      margin-top: -89px;
+      
+  }
+
+  .menu li{
+      float: left;
+  }
+
+  .menu a:hover{
+      background-color: #0cbb46;
+      color: #fff;
+      
+  }
+  
+  .hamb{
+      display: none;
+ 
+    }
+    .Span{
+      font-size: 15px;
+      margin-top: 5px;
+      font-weight: 700;
+      margin-bottom: -9px;
+  }
+    .mat-icon.mat-icon-inline {
+    font-size: 35px;
+    margin-top: 4px;
+    }
+    .header{
+      background-color: #fff;
+      box-shadow: 1px 1px 5px 0px var(--grey);
+      border-bottom: 5px solid #0cbb46;
+      position: sticky;
+      top: 0;
+      width: 100%;
+      height: 82px;
+      z-index: 1;
+    }
+    .menu-item {
+      line-height: normal;
+      text-align: center;
+      width: auto;
+      border-radius: 0;
+      height: inherit;
+      margin-bottom: -20px;
+      
+  
+      span {
+        display: block;
+      }
+      &.active,
+      &:hover {
+        background-color: rgb(12, 187, 70);
+        color: #ffffff;
+      }
+    }
+    .menu a{
+      display: block;
+      padding: 20px 25px 20px 25px;
+      margin-top: -8px;
+    
+    }
+   
+}
+
+@media (max-width: 799px) {
+  .header{
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 0px var(--grey);
+    border-bottom: 5px solid #0cbb46;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 82px;
+    z-index: 1;
+  }
+  .nav{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #fff;
+    overflow: hidden;
+    margin-top: -5px;
+
+    
+  }
+  .mat-icon.mat-icon-inline {
+    font-size: 34px;
+  }
+  .menu-item {
+    line-height: normal;
+    width: auto;
+    border-radius: 0;
+    height: inherit;
+    color: rgb(12, 187, 70);
+
+    &.active,
+    &:hover {
+      background-color: rgb(12, 187, 70);
+      color: #ffffff;
+    }
+  }
+  .menu a{
+    display: block;
+    padding: 20px 25px 20px 25px;
+    margin-top: -8px;
+    text-align: inherit;
+  
+  }
+  .Span{
+    font-size: 22px;
+    margin-top: 5px;
+    font-weight: 700;
+    margin-bottom: -9px;
+    margin-left: 5px;
+}
+
+}
