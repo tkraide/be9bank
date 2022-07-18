@@ -3,12 +3,14 @@ import { ValueConverter } from '@angular/compiler/src/render3/view/template';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { GuardService } from './@shared/services/guard/guard.service';
-import { ContatoModule } from './pages/contato/contato.module';
-import { HomeModule } from './pages/home/home.module';
+import { EmprestimoModule } from './pages/emprestimo/emprestimo.module';
+import { EmpresaModule } from './pages/empresa/empresa.module';
 import { MainComponent } from './pages/main/main.component';
-import { PortfolioModule } from './pages/portfolio/portfolio.module';
-import { ProcessoModule } from './pages/processo/processo.module';
+import { CartaoModule } from './pages/cartao/cartao.module';
+import { AjudaModule } from './pages/ajuda/ajuda.module';
 import { ServicosModule } from './pages/servicos/servicos.module';
+import { PixModule } from './pages/pix/pix.module';
+import { HomeModule } from './pages/home/home.module';
 
 const routes: Routes = [
   {
@@ -26,25 +28,25 @@ const routes: Routes = [
     loadChildren: () => HomeModule,
   },
   {
-    path: 'portfolio',
+    path: 'empresa',
     component: MainComponent,
     canActivateChild: [GuardService],
     runGuardsAndResolvers: 'always',
-    loadChildren: () => PortfolioModule,
+    loadChildren: () => EmpresaModule,
   },
   {
-    path: 'contato',
+    path: 'cartao',
     component: MainComponent,
     canActivateChild: [GuardService],
     runGuardsAndResolvers: 'always',
-    loadChildren: () => ContatoModule,
+    loadChildren: () => CartaoModule,
   },
   {
-    path: 'processo',
+    path: 'pix',
     component: MainComponent,
     canActivateChild: [GuardService],
     runGuardsAndResolvers: 'always',
-    loadChildren: () => ProcessoModule,
+    loadChildren: () => PixModule,
   },
   {
     path: 'servicos',
@@ -52,6 +54,21 @@ const routes: Routes = [
     canActivateChild: [GuardService],
     runGuardsAndResolvers: 'always',
     loadChildren: () => ServicosModule,
+  },
+  {
+    path: 'ajuda',
+    component: MainComponent,
+    canActivateChild: [GuardService],
+    runGuardsAndResolvers: 'always',
+    loadChildren: () => AjudaModule,
+  }
+  ,
+  {
+    path: 'emprestimo',
+    component: MainComponent,
+    canActivateChild: [GuardService],
+    runGuardsAndResolvers: 'always',
+    loadChildren: () => EmprestimoModule,
   }
 ];
 // Páginas
