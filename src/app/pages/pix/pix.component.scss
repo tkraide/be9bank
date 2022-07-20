@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-
+a{
+  text-decoration: none;
+}
 
 @media (max-width:800px) {
   
@@ -8,15 +10,14 @@
 
  
 }
-@media (min-width:800px) {
+@media (min-width:1366px) {
 
   .content{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
-    margin-bottom: 50px;
-    grid-gap: 50px;
     max-width: 1366px;
+    grid-gap: 20px;
 
   
   }
@@ -25,10 +26,12 @@
     font-weight: 700;
     margin-bottom: 40px;
     color: #161616;
-    width: 920px;
-    font-size: 60px;
+    width: 805px;
+    font-size: 52px;
     margin-top: 50px;
     text-align: left;
+    margin-left: 20px;
+  
 
   }
   .p{
@@ -39,9 +42,9 @@
     color: #909296;
     width: 638px;
     text-align: left;
+    margin-left: 20px;
 
   }
-
   
  
   .Btnp1 {
@@ -50,21 +53,88 @@
     background-color: #612783;
     padding: 1rem 2rem;
     border-radius: 10px;
-    width: 745px;
+    width: 645px;
     margin-top: 0px;
-    padding: 15px;
+    padding: 16px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
     font-weight: 300;
     font-family: 'Montserrat', sans-serif;
+    margin-left: 20px;
   }
   
   .Btnp1:focus {
-    background-color: darken(#612783, 15%);
+    background-color:#481764;
+  }  
+  .Btnp1:hover{
+    background-color:#481764;
   }  
   #ipix1{
-    height: 85%;
+    height: 70%;
+    margin-top: 20px;;
   }
+  .boxpix{
+    margin-top: -50px;
+    background-color: #F2F5FE;
+    width: 1100px;
+    text-align: center;
+    align-items: center;
+    display: inline-block;
+    border-radius: 20px;
+  }
+  .h2{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #161616;
+    width: 920px;
+    font-size: 45px;
+    margin-top: 50px; 
+    display: inline-block
+
+  }
+
+  .p2pix{
+    
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 40px;
+    color:#2c2c2c;
+    width: 1000px;
+    text-align: left;
+    display: inline-block
+
+  }
+  .Btnp2 {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #612783;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    width: 685px;
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  .Btnp2:focus {
+    background-color:#481764;
+  }  
+  .Btnp2:hover{
+    background-color:#481764;
+  }  
+#rroxo{
+  z-index: -1;
+  background-color: #481764;
+  width: 99.35vw;
+  height: 430px;
+  margin-top: -350px;
+  margin-left: -20px;
+}
 footer{
   position: absolute;
   bottom: 0;
