@@ -37,10 +37,10 @@ a{
   .p{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 40px;
     color: #909296;
-    width: 638px;
+    width: 526px;
     text-align: left;
     margin-left: 20px;
 
@@ -71,7 +71,7 @@ a{
   }  
   #ipix1{
     height: 70%;
-    margin-top: 20px;;
+    margin-top: 10px;;
   }
   .boxpix{
     margin-top: -50px;
@@ -98,7 +98,7 @@ a{
     
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 40px;
     color:#2c2c2c;
     width: 1000px;
@@ -135,6 +135,104 @@ a{
   margin-top: -350px;
   margin-left: -20px;
 }
+.content2{
+  margin-top: 50px;
+  display: grid;
+  margin: 0 auto;
+  max-width: 1366px;
+  grid-gap: 20px;
+  margin-left: 50px;
+
+
+}
+#ipix2{
+  height: 950px;
+  margin-left: -20px;
+  float: left;
+  margin-top: 120px;
+
+}
+.h2pix{
+  font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-bottom: 46px;
+    color: #161616;
+    width: 600px;
+    font-size: 45px;
+    margin-top: 130px;
+    display: inline-block;
+    text-align: left;
+    margin-left: 100px;
+
+}
+.content3{
+  display: grid;
+  grid-template-columns: repeat(2, 115px);
+}
+.ipix3{
+  height: 85px;
+  margin-top: 20px;
+  display: inline-block;
+  margin-left: 130px;
+}
+ 
+.h3{
+  font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #161616;
+    width: 920px;
+    font-size: 40px;
+    margin-top: 42px;
+    text-align: center;
+    display: inline-flex;
+    margin-left: 130px;
+
+}
+.p3pix{
+    
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: #2c2c2c;
+  width: 457px;
+  text-align: left;
+  display: inline-block;
+  margin-left: 250px;
+
+}
+.Btnp3 {
+  text-decoration: none;
+  color: #ffffff;
+    background-color: #612783;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    width: 547px;
+    margin-top: 20px;
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 130px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
   position: absolute;
   bottom: 0;
