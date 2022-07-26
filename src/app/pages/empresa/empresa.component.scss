@@ -73,27 +73,28 @@ a{
     width: 99.35vw;
     margin-left: -20px;
     margin-top: 80px;
+    height: 512px;
   }
   .content2{
+    
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
-    max-width: 1366px;
-    text-align: right;
+    margin-left: -1px;
 
   
   }
   .h1roxo{
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     color: #EFEFEF;
-    width: 805px;
-    font-size: 52px;
-    margin-top: 50px;
+    font-size: 46px;
+    margin-top: 65px;
     text-align: left;
-    margin-left: 45px;
-    display: inline-block;
+    
+    width: 650px;
+
   
 
   }
@@ -101,12 +102,10 @@ a{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     color: #ffffff;
-    width: 526px;
+    width: 500px;
     text-align: left;
-    margin-left: 45px;
-    display: inline-block;
 
   }
   
@@ -117,15 +116,14 @@ a{
     background-color: #ffffff;
     padding: 1rem 2rem;
     border-radius: 10px;
-    width: 634px;
+    width: 578px;
     margin-top: 0px;
     padding: 16px;
     text-align: center;
     margin-bottom: 40px;
-    font-weight: 300;
+    font-weight: 500;
     font-family: "Montserrat", sans-serif;
-    margin-left: 47px;
-    display: inline-block;
+
   }
   
   .Btne1:focus {
@@ -135,9 +133,8 @@ a{
     background-color:#eeeeee;
   }  
   #iemp2{
-    height: 720px;
-    margin-top: -1px;
     float: left;
+    margin-top: -1px;
   }
 }
 
