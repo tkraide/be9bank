@@ -143,67 +143,64 @@ a{
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
     max-width: 1326px;
-    margin-top: 80px;
-    text-align: left;
+    text-align: right;
+    margin-top: 100px;
 
   
   }
-  #iemp3{
-    height: 450px;
-    margin-top: 10px;
-    margin-left: 20px;
-  }
-  .h1e2{
+  .h13{
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     margin-bottom: 40px;
     color: #161616;
-    width: 638px;
-    font-size: 48px;
-    margin-top: 115px;
+    width: 805px;
+    font-size: 50px;
+    margin-top: 110px;
     text-align: left;
-    float: right;
-    margin-right: 30px;
+    margin-left: 18px;
+  
+
   }
-  .pe2{
+  .p3{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-size: 25px;
     margin-bottom: 40px;
-    color: #4E4E4E;
+    color: #909296;
     width: 526px;
     text-align: left;
     margin-left: 20px;
-    float: right;
-    margin-right: 139px;
 
   }
   
  
   .Btne3 {
-      text-decoration: none;
-      color: #ffffff;
-      background-color: #612783;
-      padding: 1rem 2rem;
-      border-radius: 10px;
-      width: 600px;
-      margin-top: 0px;
-      padding: 16px;
-      text-align: center;
-      margin-bottom: 40px;
-      font-weight: 300;
-      font-family: "Montserrat", sans-serif;
-      float: right;
-      margin-right: 32px;
- 
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #612783;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    width: 605px;
+    margin-top: 0px;
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 22px;
   }
   
-  .Btne1:focus {
+  .Btne3:focus {
     background-color:#481764;
   }  
-  .Btne1:hover{
+  .Btne3:hover{
     background-color:#481764;
   }  
+  #iemp3{
+    height: 450px;
+    margin-top: 10px;;
+    margin-right: 25px;
+  }
 
 }
 
