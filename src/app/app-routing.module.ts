@@ -9,6 +9,7 @@ import { MainComponent } from './pages/main/main.component';
 import { CartaoModule } from './pages/cartao/cartao.module';
 import { AjudaModule } from './pages/ajuda/ajuda.module';
 import { ServicosModule } from './pages/servicos/servicos.module';
+import { SobreModule} from './pages/sobre/sobre.module';
 import { PixModule } from './pages/pix/pix.module';
 import { HomeModule } from './pages/home/home.module';
 
@@ -69,6 +70,14 @@ const routes: Routes = [
     canActivateChild: [GuardService],
     runGuardsAndResolvers: 'always',
     loadChildren: () => EmprestimoModule,
+  }
+  ,
+  {
+    path: 'sobre',
+    component: MainComponent,
+    canActivateChild: [GuardService],
+    runGuardsAndResolvers: 'always',
+    loadChildren: () => SobreModule,
   }
 ];
 // Páginas
