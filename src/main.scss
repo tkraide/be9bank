@@ -80,9 +80,7 @@ $custom-typography: mat-typography-config(
   margin: 0px;
   padding: 0px;
 }
-a {
-  color: $gftSecondary;
-}
+
 mat-form-field {
   width: 100%;
 }
@@ -93,7 +91,7 @@ mat-label {
   color: $whrite;
 }
 body {
-  background-color: #eaeaea;
+  background-color: #ffffff;
   font-family: "Nunito Sans", sans-serif;
 }
 @media (prefers-color-scheme: dark) {

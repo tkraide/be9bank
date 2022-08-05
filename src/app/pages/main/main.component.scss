@@ -18,6 +18,12 @@ span.spacer:not(.rodape) {
   padding: 84px 20px 0px 20px;
 }
 
+.spanPrinc{
+  font-weight: 600;
+  text-decoration: none;
+  color:#8517FA;
+}
+
 // .disposicaoPagina{
 //   display: grid;
 //   grid-gap: 1.5rem;
@@ -34,7 +40,7 @@ span.spacer:not(.rodape) {
 }
 #logo{
   height: 49px;
-  padding: 20px;
+  padding: 17px;
   justify-items: start;
 }
 
@@ -75,13 +81,13 @@ span.spacer:not(.rodape) {
 
 
 .menu a:hover{
-  background-color: rgb(12, 187, 70);
-  color: #ffffff;
+  color: #5b5b5b;
 }
 
 .nav{
   max-height: 0;
   transition: max-height .5s ease-out;
+  text-decoration: none;
 }
 
 /* Menu Icon */
@@ -160,19 +166,21 @@ ul{
       float: right;
       width: fit-content;
       background-color: transparent;
-      color:  #0cbb46;
+      color:  #8517FA;
       margin-top: -89px;
+      text-decoration: none;
       
   }
 
+  a{
+    text-decoration: none;
+  }
   .menu li{
       float: left;
   }
 
   .menu a:hover{
-      background-color: #0cbb46;
-      color: #fff;
-      
+      color: #5b5b5b;
   }
   
   .hamb{
@@ -192,7 +200,7 @@ ul{
     .header{
       background-color: #fff;
       box-shadow: 1px 1px 5px 0px var(--grey);
-      border-bottom: 5px solid #0cbb46;
+      border-bottom: 2px solid #f4f4f4;
       position: sticky;
       top: 0;
       width: 100%;
@@ -222,6 +230,28 @@ ul{
       padding: 20px 25px 20px 25px;
       margin-top: -8px;
     
+    }
+
+    .botaoPrincipal{
+      line-height: normal;
+      text-align: center;
+      width: auto;
+      border-radius: 0;
+      height: inherit;
+      margin-bottom: -20px;
+      display: inline;
+      padding: 20px 25px 20px 25px;
+      margin-top: 16px;
+    }
+
+    .menuAbra{
+      padding: 10px 30px;
+      background-color:#fff;
+      border-radius: 7px;
+      color: #8517FA;
+      margin-left: 20px;
+      margin-right: 30px;
+      border-color: #8517fa5a;
     }
    
 }

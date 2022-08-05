@@ -10,7 +10,7 @@ import { MAT_DATE_LOCALE } from '@angular/material/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MAT_FORM_FIELD_DEFAULT_OPTIONS } from '@angular/material/form-field';
 import { MainModule } from './pages/main/main.module';
-
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
@@ -21,6 +21,7 @@ import { MainModule } from './pages/main/main.module';
     TranslateModule.forRoot(),
     AppRoutingModule,
     MainModule,
+    FormsModule,
   ],
   declarations: [
     AppComponent,

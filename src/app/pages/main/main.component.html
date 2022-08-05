@@ -1,7 +1,7 @@
   <header class="header">
     <!-- Logo -->
     <div id="logo">
-    <span ><a href=""><img src="/assets/grbusiness.svg" alt="" srcset="" /></a></span>
+    <span ><a href=""><img src=".\..\assets\images\logoBe9.svg" alt="" srcset="" /></a></span>
     </div>
 
     <!-- Hamburger icon -->
@@ -10,7 +10,68 @@
 
     <!-- Menu -->
     <nav class="nav">
-        <ul class="menu">
+      <button mat-icon-button [matMenuTriggerFor]="menu1" aria-label="Para Você" class="botaoPrincipal">
+        <span class="spanPrinc">Para Você</span>
+        <mat-icon>keyboard_arrow_down</mat-icon>
+      </button>
+      <mat-menu #menu1="matMenu">
+        <a onclick="refreshCSS()" [routerLink]="['/home']" routerLinkActive="active">
+          <button mat-menu-item>
+            <mat-icon>home</mat-icon>
+            <span>Início</span>
+          </button>
+        </a>
+        <a onclick="refreshCSS()" [routerLink]="['/pix']" routerLinkActive="active">
+          <button mat-menu-item>
+            <mat-icon>attach_money</mat-icon>
+            <span>Pix</span>
+          </button>
+        </a>
+        <a onclick="refreshCSS()" [routerLink]="['/cartao']" routerLinkActive="active">
+          <button mat-menu-item>
+            <mat-icon>credit_card</mat-icon>
+            <span>Cartão</span>
+          </button>
+        </a>
+        <a onclick="refreshCSS()" [routerLink]="['/emprestimo']" routerLinkActive="active">
+          <button mat-menu-item>
+            <mat-icon>card_travel</mat-icon>
+            <span>Empréstimo</span>
+          </button>
+        </a>
+        <a onclick="refreshCSS()" [routerLink]="['/servicos']" routerLinkActive="active">
+          <button mat-menu-item>
+            <mat-icon>shopping_cart</mat-icon>
+            <span>Serviços</span>
+          </button>
+        </a>
+      </mat-menu>
+      <a onclick="refreshCSS()" [routerLink]="['/empresa']" routerLinkActive="active">
+        <button mat-icon-button aria-label="Para Sua Empresa" class="botaoPrincipal">
+          <span class="spanPrinc">Para Sua Empresa</span>
+        </button>
+      </a>
+
+      <a onclick="refreshCSS()" [routerLink]="['/sobre']" routerLinkActive="active">
+        <button mat-icon-button aria-label="Sobre a Be9" class="botaoPrincipal">
+          <span class="spanPrinc">Sobre a Be9</span>
+        </button>
+      </a>
+
+      <a onclick="refreshCSS()" [routerLink]="['/ajuda']" routerLinkActive="active">
+        <button mat-icon-button aria-label="Ajuda" class="botaoPrincipal">
+          <span class="spanPrinc">Ajuda</span>
+        </button>
+      </a>
+      
+      <button class="menuAbra">
+        <span>Abra sua conta</span>
+      </button>
+
+
+
+        <!-- <ul class="menu">
+
             <li> <a onclick="refreshCSS()" [routerLink]="['/home']" routerLinkActive="active" mat-icon-button class="menu-item">
               <mat-icon [inline]="true">home</mat-icon>
               <span class="Span">Home</span>
@@ -31,7 +92,7 @@
               <mat-icon [inline]="true">contact_mail</mat-icon>
               <span  class="Span">Contato</span>
             </a></li>
-        </ul>
+        </ul> -->
     </nav>
 </header>
 <script>

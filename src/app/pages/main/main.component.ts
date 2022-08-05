@@ -12,9 +12,6 @@ export class MainComponent implements OnInit {
   public showFiller: boolean = false;
   public project: any = environment.product;
   public user:IUser;
-  constructor(private db:DatabaseService) {}
-
-  async ngOnInit(): Promise<void> {
-    this.user = await this.db.user.toCollection().first();    
+  async ngOnInit() {
   }
 }

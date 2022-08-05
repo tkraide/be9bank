@@ -12,6 +12,9 @@ import { ServicosModule } from './pages/servicos/servicos.module';
 import { SobreModule} from './pages/sobre/sobre.module';
 import { PixModule } from './pages/pix/pix.module';
 import { HomeModule } from './pages/home/home.module';
+import { TermosappModule } from './pages/termosapp/termosapp.module';
+import { TermoswebModule } from './pages/termosweb/termosweb.module';
+import { PoliticaModule } from './pages/politica/politica.module';
 
 const routes: Routes = [
   {
@@ -78,6 +81,30 @@ const routes: Routes = [
     canActivateChild: [GuardService],
     runGuardsAndResolvers: 'always',
     loadChildren: () => SobreModule,
+  }
+  ,
+  {
+    path: 'politica',
+    component: MainComponent,
+    canActivateChild: [GuardService],
+    runGuardsAndResolvers: 'always',
+    loadChildren: () => PoliticaModule,
+  }
+  ,
+  {
+    path: 'termosWeb',
+    component: MainComponent,
+    canActivateChild: [GuardService],
+    runGuardsAndResolvers: 'always',
+    loadChildren: () => TermoswebModule,
+  }
+  ,
+  {
+    path: 'termosApp',
+    component: MainComponent,
+    canActivateChild: [GuardService],
+    runGuardsAndResolvers: 'always',
+    loadChildren: () => TermosappModule,
   }
 ];
 // Páginas

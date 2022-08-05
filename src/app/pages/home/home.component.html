@@ -92,9 +92,10 @@
         </div>
         <div>
           <p class="tfooter">Informações</p>
-          <a><p class="pfooter">Política de Privacidade</p></a>
-          <a><p class="pfooter">Termos de Uso Web</p></a>  
-          <a><p class="pfooter">TErmos de Uso Mobile</p></a>
+          <a [routerLink]="['/politica']" routerLinkActive="active"><p class="pfooter">Política de Privacidade</p></a>
+          <a [routerLink]="['/termosWeb']" routerLinkActive="active"><p class="pfooter">Termos de Uso Web</p></a>
+          <a [routerLink]="['/termosApp']" routerLinkActive="active"><p class="pfooter">Termos de Uso Mobile</p></a>
+
         </div>
         </div>
         <hr id="hr">
