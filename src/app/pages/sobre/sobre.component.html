@@ -19,28 +19,38 @@
   </div>
 </body>
 </div>
-<footer>
-  <div class="footer-content">
-      <h3>Gr Business</h3>
-      <p>Somos uma Empresa com mais de 3 anos de Experiência no Mercado Digital sendo especialistas em Marketing Digital, Otimização de Motores de Busca do Google, Design de Logotipos e Sites e Programação de Sites</p>
-      <ul class="socials">
-        <li><a href="https://api.whatsapp.com/send?phone=5511988129400"><img  class="ImagesF" src=".\..\assets\images\BtnWpp.png" ><i class="iMenu">Whatsapp</i></a></li>
-        <li><a href="#"><img class="ImagesF" src=".\..\assets\images\BtnFace.png"><i class="iMenu">Facebook</i></a></li>
-        <li><a href="#"><img class="ImagesF" src=".\..\assets\images\BtnInsta.png"><i class="iMenu">Instagram</i></a></li>
-       <li><a href="mailto:contatogrbusiness@gmail.com"> <img class="ImagesF" src=".\..\assets\images\BtnEmail.png"><i class="iMenu">Email</i></a></li>
-      </ul>
-  </div>
-  <div class="footer-bottom">
-      <p>copyright &copy; <a href="#">Gr Business</a>  </p>
-              <div class="footer-menu">
-                <ul class="f-menu">
-                  <li><a [routerLink]="['/home']" routerLinkActive="active">Home</a></li>
-                  <li><a [routerLink]="['/servicos']" routerLinkActive="active">Serviços</a></li>
-                  <li><a [routerLink]="['/portfolio']" routerLinkActive="active">Portfólio</a></li>
-                  <li><a [routerLink]="['/processo']" routerLinkActive="active">Processo</a></li>
-                  <li><a [routerLink]="['/contato']" routerLinkActive="active">Contato</a></li>
-                </ul>
-              </div>
-  </div>
+  
+<footer class="footer">
+  <div style="text-align: center;">
+    <div class="footerGrid">
+      <div>
+        <img  id="logof" src=".\..\assets\images\logof.png" >
+      </div>
+      <div>
+        <p class="tfooter">Baixe o nosso App</p>
+        <img  class="btnf" src=".\..\assets\images\gplay.svg" >
+        <img  class="btnf" src=".\..\assets\images\astore.svg" >
+      </div>
+      <div>
+        <p class="tfooter">Atendimento</p>
+        <p class="pfooter">Central de Relacionamento<br>0800 275 6398</p>
+        <p class="pfooter">SAC<br>0800 722 6398 </p>
+        <p class="pfooter">Ouvidoria<br>0800 688 6398</p>
+        <p class="pfooter">contatobe9@be9.com</p>
+      </div>
+      <div>
+        <p class="tfooter">Informações</p>
+        <a [routerLink]="['/politica']" routerLinkActive="active"><p class="pfooter">Política de Privacidade</p></a>
+        <a [routerLink]="['/termosWeb']" routerLinkActive="active"><p class="pfooter">Termos de Uso Web</p></a>
+        <a [routerLink]="['/termosApp']" routerLinkActive="active"><p class="pfooter">Termos de Uso Mobile</p></a>
 
+      </div>
+      </div>
+      <hr id="hr">
+      <div class="footerGrid2">
+        <div>
+          <p class="p2footer">Be9 Bank © 2022<br>Avenida das Nações Unidas, 12399 cj 96A <br>Brooklin Novo - SÃO PAULO - SP - Brasil<br>04578-000</p>
+        </div>
+      </div>
+  </div>
 </footer>
