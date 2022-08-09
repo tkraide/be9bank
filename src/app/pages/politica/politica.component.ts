@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 import { IUser } from '@app/@shared/model';
 import { AuthService } from '@app/@shared/services/auth/auth.service';
 import { environment } from '@env/environment';
-import WebViewer from '@pdftron/webviewer';
+// import WebViewer from '@pdftron/webviewer';
 
 
 @Component({
@@ -22,15 +22,15 @@ export class PoliticaComponent implements OnInit {
   }
 
 
-  @ViewChild('viewer') viewerRef: ElementRef;
+  // @ViewChild('viewer') viewerRef: ElementRef;
 
-  ngAfterViewInit(): void{
-    WebViewer({
-      path:'../assets/lib',
-      initialDoc:'../assets/PoliticadePrivacidadeAPP.pdf'
-    },this.viewerRef.nativeElement).then(instance => {
+  // ngAfterViewInit(): void{
+  //   WebViewer({
+  //     path:'../assets/lib',
+  //     initialDoc:'../assets/PoliticadePrivacidadeAPP.pdf'
+  //   },this.viewerRef.nativeElement).then(instance => {
 
-    });
-  }
+  //   });
+  // }
 
   }
