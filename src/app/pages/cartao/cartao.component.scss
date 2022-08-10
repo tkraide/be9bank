@@ -289,55 +289,77 @@ a{
 
 
 @media (max-width:700px) {
-.footer-menu ul{
-display: flex;
-margin-top: 10px;
-}
-.footer-menu{
-  font-size: 14px;
-  display: -webkit-inline-box;
-  float: none;
+  .footer{
+    background-color: black;
+    width: 99.35vw;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: -20px;
   }
-
-.footer-bottom{
-  background: #013912;
-  padding: 20px;
-  padding-bottom: 40px;
-  text-align: center;
-  height: 30px;
-  float: initial;
-}
-.footer-bottom p{
-    font-size: 14px;
-    word-spacing: 2px;
-    text-transform: capitalize;
-    float: inherit;
-  }
-
-  .botao-wpp {
-    text-decoration: none;
-    color: #eee;
-    display: inline-block;
-    background-color: #25d366;
-    font-weight: bold;
-    padding: 1rem 2rem;
-    border-radius: 5px;
-    width: 100px;
-    margin-top: 20px;
-    padding: 1px;
-    text-align: center;
-   margin-bottom: 10px;
-  }
-  .ContWpp{
-    align-content: center;
-    justify-content: end;
-    align-items: center;
+  .footerGrid{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 60px;
-    justify-items: center;
-    margin-left: 18px;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+
   
   }
+  #logof{
+    height: 100px;
+    margin-top: 20px;
+ 
+  }
+  .btnf{
+    float: left;
+    margin-bottom: 20px;
+    width: 260px;
+    margin-left: 30px;
+  }
   
+  .tfooter{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #f1f1f1;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .pfooter{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #c1c1c1;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 30px;
+  }
+  #hr{
+    width: 99.35vw;
+    margin: auto;
+    height: 1px;
+    background-color: #616161;
+    border: none;
+    margin-top: 20px;
+  }
+  .footerGrid2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+
+  
+  }
+
+  .p2footer{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #8d8d8d;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 25px;
+
+  }
+
 }

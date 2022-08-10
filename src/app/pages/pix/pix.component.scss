@@ -4,9 +4,81 @@ a{
   text-decoration: none;
 }
 
-@media (max-width:800px) {
+@media (max-width:700px) {
   
+  .footer{
+    background-color: black;
+    width: 99.35vw;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: -20px;
+  }
+  .footerGrid{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+
   
+  }
+  #logof{
+    height: 100px;
+    margin-top: 20px;
+ 
+  }
+  .btnf{
+    float: left;
+    margin-bottom: 20px;
+    width: 260px;
+    margin-left: 30px;
+  }
+  
+  .tfooter{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #f1f1f1;
+    font-size: 24px;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  .pfooter{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #c1c1c1;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 30px;
+  }
+  #hr{
+    width: 99.35vw;
+    margin: auto;
+    height: 1px;
+    background-color: #616161;
+    border: none;
+    margin-top: 20px;
+  }
+  .footerGrid2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0 auto;
+
+  
+  }
+
+  .p2footer{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #8d8d8d;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 25px;
+
+  }
+
 
  
 }
@@ -225,22 +297,6 @@ a{
     float: right;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   .footer{
     background-color: black;
