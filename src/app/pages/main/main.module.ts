@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import {BrowserModule} from '@angular/platform-browser';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
+import {MatCardModule} from '@angular/material/card';
 import {MatMenuModule} from '@angular/material/menu';
 
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
@@ -16,7 +17,7 @@ import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [MainComponent],
-  imports: [CommonModule, MatToolbarModule, MatIconModule, MatButtonModule, RouterModule, MatMenuModule, BrowserAnimationsModule, BrowserModule],
+  imports: [CommonModule, MatToolbarModule, MatIconModule, MatButtonModule, RouterModule, MatMenuModule, BrowserAnimationsModule, BrowserModule, MatCardModule],
   exports: [MainComponent],
 })
 export class MainModule {}

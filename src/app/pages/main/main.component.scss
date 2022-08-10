@@ -19,6 +19,7 @@ span.spacer:not(.rodape) {
 }
 
 .spanPrinc{
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   text-decoration: none;
   color:#8517FA;
@@ -47,7 +48,7 @@ span.spacer:not(.rodape) {
 
 ::ng-deep {
   .mat-toolbar {
-    border-bottom: 5px solid rgb(12, 187, 70);
+    border-bottom: 5px solid #8517FA;
   }
   @media (prefers-color-scheme: dark) {
   }
@@ -77,7 +78,7 @@ span.spacer:not(.rodape) {
   color: #5b5b5b;
 }
 
-.nav{
+.nav2{
   max-height: 0;
   transition: max-height .5s ease-out;
   text-decoration: none;
@@ -94,7 +95,7 @@ span.spacer:not(.rodape) {
 
 
 .hamb-line {
-  background:  #0cbb46;
+  background:  #7729c9;
   display: block;
   height: 2px;
   position: relative;
@@ -104,7 +105,7 @@ span.spacer:not(.rodape) {
 
 .hamb-line::before,
 .hamb-line::after{
-  background: #0cbb46;
+  background: #7729c9;
   content: '';
   display: block;
   height: 100%;
@@ -128,7 +129,7 @@ span.spacer:not(.rodape) {
 
 /* Toggle menu icon */
 
-.side-menu:checked ~ nav{
+.side-menu:checked ~ .nav2{
   max-height: 100%;
 }
 
@@ -152,6 +153,9 @@ ul{
 }
 
 @media (min-width: 800px) {
+  .nav2{
+    display: none;
+  }
   .nav{
       max-height: none;
       top: 0;
@@ -211,6 +215,7 @@ ul{
   
       span {
         display: block;
+        font-family: "Montserrat", sans-serif;
       }
       &.active,
       &:hover {
@@ -241,10 +246,15 @@ ul{
       padding: 10px 30px;
       background-color:#fff;
       border-radius: 7px;
-      color: #8517FA;
+      //color: #3c007b;
+      color: #3f037c;
       margin-left: 20px;
       margin-right: 30px;
-      border-color: #8517fa5a;
+      border-color: #2b005853;
+    }
+    .menuAbra span{
+      font-weight: 600;
+      font-family: "Montserrat", sans-serif;
     }
    
 }
@@ -253,22 +263,38 @@ ul{
   .header{
     background-color: #fff;
     box-shadow: 1px 1px 5px 0px var(--grey);
-    border-bottom: 5px solid #0cbb46;
-    position: absolute;
+    border-bottom: 1px solid #721cce47;
+    position: fixed;
     top: 0;
     width: 100%;
     height: 82px;
     z-index: 1;
   }
   .nav{
+    display: none;
+  }
+  .nav2{
     width: 100%;
     height: 100%;
     position: fixed;
     background-color: #fff;
     overflow: hidden;
-    margin-top: -5px;
-
-    
+    margin-top: -5px; 
+  }
+  .matCard{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 9px;
+  }
+  mat-card :not(.matCard){
+    padding: 14px 0px;
+    border-radius: 2px;
+  }
+  .botaoMenuMobile{
+    text-align: center;
+    color: #770fdf;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
   }
   .mat-icon.mat-icon-inline {
     font-size: 34px;
@@ -282,7 +308,7 @@ ul{
 
     &.active,
     &:hover {
-      background-color: rgb(12, 187, 70);
+      background-color: #8517fa5a;
       color: #ffffff;
     }
   }
