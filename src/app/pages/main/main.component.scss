@@ -281,14 +281,26 @@ ul{
     overflow: hidden;
     margin-top: -5px; 
   }
+  // .nav2{
+  //   width: 58%;
+  //   height: 100%;
+  //   position: initial;
+  //   background-color: #fff;
+  //   overflow: visible;
+  //   margin-top: -5px;
+  //   float: right;
+  // }
   .matCard{
     display: flex;
     flex-direction: column;
     padding: 30px 9px;
+    //box-shadow:  0px 1px 1px -1px rgb(0 0 0 / 7%), 0px 1px 1px 0px rgb(0 0 0 / 7%), 0px 1px 1px 0px rgb(0 0 0 / 9%);
+
   }
   mat-card :not(.matCard){
-    padding: 14px 0px;
+    padding: 10px 0px;
     border-radius: 2px;
+    margin-bottom: 5px;
   }
   .botaoMenuMobile{
     text-align: center;
