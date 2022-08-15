@@ -71,30 +71,35 @@
   
   <footer class="footer">
     <div style="text-align: center;">
-      <div class="footerGrid">
-        <div>
-          <img  id="logof" src=".\..\assets\images\logof.png" >
+      <div class="divFooter">
+        <div class="footerGrid">
+          <div>
+            <img  id="logof" src=".\..\assets\images\logof.png" >
+          </div>
+          <div>
+            <p class="tfooter">Baixe o nosso App</p>
+            <img  class="btnf" src=".\..\assets\images\gplay.svg" >
+            <img  class="btnf" src=".\..\assets\images\astore.svg" >
+          </div>
         </div>
-        <div>
-          <p class="tfooter">Baixe o nosso App</p>
-          <img  class="btnf" src=".\..\assets\images\gplay.svg" >
-          <img  class="btnf" src=".\..\assets\images\astore.svg" >
+        <div class="footerGrid3">
+          <div>
+            <p class="tfooter">Atendimento</p>
+            <p class="pfooter">Central de Relacionamento<br>0800 275 6398</p>
+            <p class="pfooter">SAC<br>0800 722 6398 </p>
+            <p class="pfooter">Ouvidoria<br>0800 688 6398</p>
+            <p class="pfooter">contatobe9@be9.com</p>
+          </div>
+          <div>
+            <p class="tfooter">Informações</p>
+            <a [routerLink]="['/politica']" routerLinkActive="active"><p class="pfooter">Política de Privacidade</p></a>
+            <a [routerLink]="['/termosWeb']" routerLinkActive="active"><p class="pfooter">Termos de Uso Web</p></a>
+            <a [routerLink]="['/termosApp']" routerLinkActive="active"><p class="pfooter">Termos de Uso Mobile</p></a>
+          </div>
         </div>
-        <div>
-          <p class="tfooter">Atendimento</p>
-          <p class="pfooter">Central de Relacionamento<br>0800 275 6398</p>
-          <p class="pfooter">SAC<br>0800 722 6398 </p>
-          <p class="pfooter">Ouvidoria<br>0800 688 6398</p>
-          <p class="pfooter">contatobe9@be9.com</p>
-        </div>
-        <div>
-          <p class="tfooter">Informações</p>
-          <a [routerLink]="['/politica']" routerLinkActive="active"><p class="pfooter">Política de Privacidade</p></a>
-          <a [routerLink]="['/termosWeb']" routerLinkActive="active"><p class="pfooter">Termos de Uso Web</p></a>
-          <a [routerLink]="['/termosApp']" routerLinkActive="active"><p class="pfooter">Termos de Uso Mobile</p></a>
-  
-        </div>
-        </div>
+      </div>
+
+      
         <hr id="hr">
         <div class="footerGrid2">
           <div>

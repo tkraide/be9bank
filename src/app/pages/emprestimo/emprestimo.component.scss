@@ -218,18 +218,21 @@ a{
   .footer{
     background-color: black;
     width: 99.35vw;
-    width: 100%;
-    margin: 0;
+    margin: auto;
     margin-top: 50px;
     margin-left: -20px;
   }
+  .divFooter{
+    display: grid;
+    grid-template-columns: repeat(2, 58vw);
+    //margin: 0 auto;
+    max-width: 100vw;
+  }
   .footerGrid{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin: 0 auto;
-    max-width: 1326px;
-
-
+    grid-template-columns: repeat(2, 20vw);
+    //margin: 0 auto;
+    max-width: 40%;
   }
   #logof{
     height: 100px;
@@ -241,7 +244,7 @@ a{
     margin-bottom: 10px;
     width: 260px;
   }
-
+  
   .tfooter{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
@@ -271,9 +274,13 @@ a{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
-    max-width: 1326px;
-
-
+    max-width: 1326px;  
+  }
+  .footerGrid3{
+    display: grid;
+    grid-template-columns: repeat(2, 20vw);
+    //margin: 0 auto;
+    max-width: 40%;
   }
 
   .p2footer{
@@ -299,7 +306,7 @@ a{
 @media (max-width:700px) {
   .footer{
     background-color: black;
-    width: 99.35vw;
+    width: 100vw;
     margin: auto;
     margin-top: 50px;
     margin-left: -20px;
@@ -319,8 +326,8 @@ a{
   .btnf{
     float: left;
     margin-bottom: 20px;
-    width: 260px;
-    margin-left: 30px;
+    width: 38%;
+    margin-left: 8%;
   }
   
   .tfooter{
@@ -328,7 +335,7 @@ a{
     font-weight: 400;
     margin-bottom: 30px;
     color: #f1f1f1;
-    font-size: 24px;
+    font-size: 17px;
     text-align: left;
     margin-top: 30px;
     margin-left: 30px;
@@ -338,7 +345,7 @@ a{
     font-weight: 400;
     margin-bottom: 20px;
     color: #c1c1c1;
-    font-size: 18px;
+    font-size: 11px;
     text-align: left;
     margin-left: 30px;
   }
@@ -353,9 +360,12 @@ a{
   .footerGrid2{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin: 0 auto;
-
-  
+    margin: 0 auto;  
+  }
+  .footerGrid3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;  
   }
 
   .p2footer{
@@ -363,11 +373,11 @@ a{
     font-weight: 400;
     margin-bottom: 20px;
     color: #8d8d8d;
-    font-size: 18px;
+    font-size: 12px;
     text-align: center;
     margin-top: 20px;
     line-height: 25px;
 
   }
-
+  
 }

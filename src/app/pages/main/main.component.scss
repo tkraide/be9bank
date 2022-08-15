@@ -88,9 +88,11 @@ span.spacer:not(.rodape) {
 
 .hamb{
   cursor: pointer;
-  float: right;
-  padding: 40px 20px;
-  margin-top: -86px;
+  //float: right;
+  padding: 13px 20px;
+  margin-top: -30px;
+  display: block;
+  margin-left: 83%;
 }
 
 
@@ -256,7 +258,15 @@ ul{
       font-weight: 600;
       font-family: "Montserrat", sans-serif;
     }
-   
+    .menuAbraMobile{
+      display: none;
+    }
+    .menuAbraMobile span{
+      display: none;
+    }
+    // .menuMobileGrid{
+    //   display: none;
+    // }
 }
 
 @media (max-width: 799px) {
@@ -279,7 +289,7 @@ ul{
     position: fixed;
     background-color: #fff;
     overflow: hidden;
-    margin-top: -5px; 
+    margin-top: 20px; 
   }
   // .nav2{
   //   width: 58%;
@@ -338,6 +348,56 @@ ul{
     margin-bottom: -9px;
     margin-left: 5px;
 }
+
+.menuAbra{
+  display: none;
+}
+
+.menuAbraMobile{
+  padding: 5px 15px;
+  background-color:#fff;
+  border-radius: 7px;
+  //color: #3c007b;
+  color: #3f037c;
+  border-color: #2b005853;
+  display: flex;
+  margin-left: calc(50vw - 9px);;
+  margin-top: -55px;
+}
+.menuAbraMobile span{
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+
+// .menuMobileGrid{
+//   display: grid;
+//   grid-template-columns: repeat(2, 48%);
+//   width: 75%;
+//   margin-left: 48%;
+//   margin-top: -56px;
+// }
+// .menuMobileGrid1{
+//   display: flex;
+// }
+// .menuMobileGrid2{
+//   display: block;
+// }
+
+}
+
+@media (max-width: 375px) {
+
+  .menuAbraMobile{
+    padding: 5px 15px;
+    background-color:#fff;
+    border-radius: 7px;
+    //color: #3c007b;
+    color: #3f037c;
+    border-color: #2b005853;
+    display: flex;
+    margin-left: 39vw;;
+    margin-top: -55px;
+  }
 
 }
 
