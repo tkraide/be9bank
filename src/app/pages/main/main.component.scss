@@ -10,13 +10,6 @@ span.spacer:not(.rodape) {
     height: 51px;
   }
 }
-.main-content:not(.rodape){
-  box-sizing: border-box;
-  height: calc(100vh - 64px);
-  margin: 0px 0px;
-  position: relative;
-  padding: 84px 20px 0px 20px;
-}
 
 .spanPrinc{
   font-family: "Montserrat", sans-serif;
@@ -155,6 +148,13 @@ ul{
 }
 
 @media (min-width: 800px) {
+  .main-content:not(.rodape){
+    box-sizing: border-box;
+    height: calc(100vh - 64px);
+    margin: 0px 0px;
+    position: relative;
+    padding: 84px 20px 0px 20px;
+  }
   .nav2{
     display: none;
   }
@@ -270,6 +270,13 @@ ul{
 }
 
 @media (max-width: 799px) {
+  .main-content:not(.rodape){
+    box-sizing: border-box;
+    height: calc(100vh - 64px);
+    margin: 0px 0px;
+    position: relative;
+    padding: 84px 0px 0px 0px;
+  }
   .header{
     background-color: #fff;
     box-shadow: 1px 1px 5px 0px var(--grey);

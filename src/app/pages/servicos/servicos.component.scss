@@ -66,6 +66,12 @@ a{
     margin-top: 10px;;
     margin-right: 25px;
   }
+  #iemp1mobile{
+    display: none;
+  }
+  .cemp1{
+    display: none;
+  }
 
   .master{
     background-color: #612783;
@@ -139,6 +145,9 @@ a{
     margin-top: -1px;
     height: 514px;
   }
+  #iemp2mobile{
+    display: none;
+  }
   .content3{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -147,7 +156,6 @@ a{
     text-align: right;
     margin-top: 100px;
 
-  
   }
   .h13{
     font-family: "Montserrat", sans-serif;
@@ -202,12 +210,16 @@ a{
     margin-top: 10px;;
     margin-right: 75px;
   }
-
+  #iemp3mobile{
+    display: none;
+  }
+  .cemp3mobile{
+    display: none;
+  }
   .footer{
     background-color: black;
     width: 99.35vw;
     margin: auto;
-    margin-top: 50px;
     margin-left: -20px;
   }
   .divFooter{
@@ -291,12 +303,167 @@ a{
 
 
 @media (max-width:700px) {
+  #iemp1{
+    display: none;
+  }
+  #iemp1mobile{
+    width: 80%;
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 #00000021;
+  }
+  .h1{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #161616;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 0px 8px 0px 8px;
+  }
+  .p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 22px;
+    color: #909296;
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+  }
+  .Btne1 {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #612783;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 15%;
+    width: 64.5%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .Btne1:focus {
+    background-color:#481764;
+  }  
+  .Btne1:hover{
+    background-color:#481764;
+  }
+
+  .master{
+    background-color: #612783;
+    text-align: center;
+    color: #ffffff;
+    padding: 0px 8px 25px 8px;
+    margin-top: 30px;
+  }
+  #iemp2{
+    display: none;
+  }
+  #iemp2mobile{
+    width: 80%;
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 #00000021;
+  }
+
+  .h1roxo{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0px 20px 0px;
+    margin-top: 15px;
+  }
+  .proxo{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .Btne2 {
+    text-decoration: none;
+    color: #481764;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 15%;
+    width: 64.5%;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  .Btne2:focus {
+    background-color:#481764;
+  }  
+  .Btne2:hover{
+    background-color:#481764;
+  }
+
+  #iemp3{
+    display: none;
+  }
+  #iemp3mobile{
+    width: 80%;
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 #00000021;
+  }
+  .h13{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #161616;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 0px 8px 0px 8px;
+  }
+  .p3{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 22px;
+    color: #909296;
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .Btne3 {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #612783;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 15%;
+    width: 64.5%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .Btne3:focus {
+    background-color:#481764;
+  }  
+  .Btne3:hover{
+    background-color:#481764;
+  }
+
   .footer{
     background-color: black;
     width: 100vw;
     margin: auto;
-    margin-top: 50px;
-    margin-left: -20px;
   }
   .footerGrid{
     display: grid;
