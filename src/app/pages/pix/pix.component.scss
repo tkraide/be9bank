@@ -144,20 +144,23 @@ a{
   margin-left: 15px;
 }
 #ipix2{
-  height: 950px;
+  height: 850px;
   margin-left: -20px;
   float: left;
   margin-top: 120px;
 
 }
+#ipix2M{
+  display: none;
+}
 .h2pix{
   font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    margin-bottom: 46px;
+    margin-bottom: 20px;
     color: #161616;
     width: 615px;
-    font-size: 48px;
-    margin-top: 130px;
+    font-size: 40px;
+    margin-top: 105px;
     display: inline-block;
     text-align: left;
     margin-right: 40px;
@@ -170,7 +173,7 @@ a{
   margin-right: 560px;
 }
 .ipix3{
-  height: 85px;
+  height: 80px;
   margin-top: 20px;
   display: inline-block;
   margin-left: 130px;
@@ -182,8 +185,8 @@ a{
     margin-bottom: 40px;
     color: #161616;
     width: 920px;
-    font-size: 40px;
-    margin-top: 42px;
+    font-size: 35px;
+    margin-top: 38px;
     text-align: center;
     display: inline-flex;
     margin-left: 130px;
@@ -194,7 +197,7 @@ a{
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 25px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: #2c2c2c;
   width: 457px;
   text-align: left;
@@ -351,11 +354,9 @@ a{
   .containerBox{
     padding-top: 5px;
     background-color: #612783;
-    border-radius: 10px;
-    padding-bottom: 5px;
-    margin-top: 30px;
-    width: 93%;
-    margin-left: 3.5%;
+    text-align: center;
+    padding: 1px 8px 20px 8px;
+    margin-top: 50px;
   }
 
   .boxpix{
@@ -375,7 +376,7 @@ a{
     font-weight: 700;
     margin-bottom: 30px;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     margin-top: 20px;
   }
 
@@ -422,13 +423,17 @@ a{
     background-color:#481764;
   }
 
-  #ipix2{
+  #ipix2M{
     width: 80%;
     margin-top: 30px;
     border-radius: 30px;
     box-shadow: 0 0 10px 0 #00000021;
     margin-left: 10%;
   }
+  #ipix2{
+    display: none;
+  }
+
 
   .h2pix{
     font-family: "Montserrat", sans-serif;
@@ -449,10 +454,12 @@ a{
   }
 
   .p3pix{
+    font-family: "Montserrat", sans-serif;
     margin-bottom: 40px;
     text-align: justify;
     width: 80%;
     margin-left: 10%;
+    color: #6e6f70;
   }
 
   .ipix3{
