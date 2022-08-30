@@ -4,7 +4,7 @@ a{
 
 
 @media (min-width:1366px) {
-  #iemp0{
+  #iemp1mobile{
     display: none;
   }
   .content{
@@ -73,10 +73,9 @@ a{
   .master{
     background-color: #612783;
     text-align: center;
-    width: 99.35vw;
-    margin-left: -20px;
-    margin-top: 80px;
-    height: 512px;
+    color: #ffffff;
+    padding: 0px 8px 25px 8px;
+    margin-top: 30px;
   }
   .content2{
     
@@ -141,6 +140,9 @@ a{
     float: left;
     margin-top: -1px;
   }
+  #iemp2mobile{
+    display: none;
+  }
   .content3{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -175,7 +177,7 @@ a{
     margin-left: 20px;
 
   }
-  #iemp4{
+  #iemp3mobile{
     display: none;
   }
   
@@ -303,128 +305,116 @@ a{
 
   
   }
-  #iemp0{
-    width: 60%;
-    margin-top: 50px;
+  #iemp1{
+    display: none;
+  }
+  #iemp1mobile{
+    width: 80%;
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 #00000021;
   }
   .h1{
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     color: #161616;
-    text-align: left;
-    font-size: 24px;
+    text-align: center;
+    font-size: 18px;
     margin-top: 20px;
-    margin-left: 80px;
-    width: 80%;
-  
-
+    padding: 0px 8px 0px 8px;
   }
   .p{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 24px;
-    margin-bottom: 30px;
+    font-size: 16px;
+    margin-bottom: 22px;
     color: #909296;
+    text-align: justify;
     width: 80%;
-    text-align: left;
-    margin-left: 80px;
-
+    margin-left: 10%;
   }
   
- 
   .Btne1 {
     text-decoration: none;
     color: #ffffff;
     background-color: #612783;
-    padding: 1rem 2rem;
     border-radius: 10px;
-    width: 68%;
-    padding: 16px;
     text-align: center;
     font-weight: 300;
     font-family: "Montserrat", sans-serif;
-    margin-left: 80px;
+    margin-left: 15%;
+    width: 64.5%;
+    padding: 10px;
+    font-size: 16px;
   }
-  
   .Btne1:focus {
     background-color:#481764;
   }  
   .Btne1:hover{
     background-color:#481764;
-  }  
+  }
+
   #iemp1{
     display: none;
   }
   .master{
     background-color: #612783;
     text-align: center;
-    width: 99.35vw;
-    margin-left: -20px;
-    margin-top: 50px;
+    color: #ffffff;
+    padding: 0px 8px 25px 8px;
+    margin-top: 30px;
   }
-  .content2{
-    
-    display: grid;
-    margin: 0 auto;
-    text-align: center;
-    max-width: 500px;
 
-  
-  }
   .h1roxo{
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    margin-bottom: 30px;
-    text-align: left;
-    font-size: 24px;
-    margin-top: 20px;
-    margin-left: 80px;
-    width: 80%;
-    color: #EFEFEF;
-
-  
-
+    color: #ffffff;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px 0px 20px 0px;
+    margin-top: 15px;
   }
   .proxo{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 22px;
-    margin-bottom: 30px;
-    width: 80%;
-    text-align: left;
-    margin-left: 80px;
+    font-size: 16px;
     color: #ffffff;
-
+    text-align: justify;
+    width: 80%;
+    margin-left: 10%;
   }
   
- 
   .Btne2 {
     text-decoration: none;
-    color: #612783;
+    color: #481764;
     background-color: #ffffff;
-    padding: 1rem 2rem;
     border-radius: 10px;
-    width: 68%;
-    margin-top: 0px;
-    padding: 16px;
     text-align: center;
-    margin-bottom: 40px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
     font-family: "Montserrat", sans-serif;
-    margin-left: 80px;
-
+    margin-left: 15%;
+    width: 64.5%;
+    padding: 10px;
+    margin-top: 20px;
   }
   
-  .Btne1:focus {
-    background-color:#eeeeee;
+  .Btne2:focus {
+    background-color:#481764;
   }  
   .Btne2:hover{
-    background-color:#eeeeee;
-  }  
+    background-color:#481764;
+  }
+
   #iemp2{
-    width: 60%;
-    margin-top: 50px;
+    display: none;
+  }
+  #iemp2mobile{
+    width: 80%;
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 #00000021;
   }
   .content3{
     display: grid;
@@ -437,62 +427,59 @@ a{
   #iemp3{
     display: none;
   }
-  #iemp4{
-    width: 60%;
-    margin-top: 50px;
+  #iemp3mobile{
+    width: 80%;
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px 0 #00000021;
   }
   .h13{
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
     margin-bottom: 30px;
     color: #161616;
-    text-align: left;
-    font-size: 24px;
+    text-align: center;
+    font-size: 18px;
     margin-top: 20px;
-    margin-left: 80px;
-    width: 80%;
+    padding: 0px 8px 0px 8px;
   }
   .p3{
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
-    font-size: 24px;
-    margin-bottom: 30px;
+    font-size: 16px;
+    margin-bottom: 22px;
     color: #909296;
+    text-align: justify;
     width: 80%;
-    text-align: left;
-    margin-left: 80px;
+    margin-left: 10%;
   }
-  
- 
+
   .Btne3 {
     text-decoration: none;
     color: #ffffff;
     background-color: #612783;
-    padding: 1rem 2rem;
     border-radius: 10px;
-    width: 69%;
-    padding: 16px;
     text-align: center;
-    margin-bottom: 40px;
     font-weight: 300;
     font-family: "Montserrat", sans-serif;
-    margin-left: 80px;
- 
+    margin-left: 15%;
+    width: 64.5%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  .Btne3:focus {
+    background-color:#481764;
+  }  
+  .Btne3:hover{
+    background-color:#481764;
   }
   
-  .Btne1:focus {
-    background-color:#481764;
-  }  
-  .Btne1:hover{
-    background-color:#481764;
-  }  
 
   .footer{
     background-color: black;
     width: 100vw;
     margin: auto;
     margin-top: 50px;
-    margin-left: -20px;
   }
   .footerGrid{
     display: grid;
