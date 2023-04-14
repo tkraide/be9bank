@@ -11,8 +11,8 @@
     "experimentalDecorators": true,
     "importHelpers": true,
     "noImplicitAny": true,
-    "ignoreDeprecations": "5.0",
-    "suppressImplicitAnyIndexErrors": true,
+    // "ignoreDeprecations": "5.0",
+    // "suppressImplicitAnyIndexErrors": true,
     "target": "es2015",
     "typeRoots": [
       "node_modules/@types"
